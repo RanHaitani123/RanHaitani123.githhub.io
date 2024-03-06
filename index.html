@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="robots" content="index,follow">
+
+    <title>Marlon Daniel Vargas Satz | Proyecto de Vida</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- logo de imagen que aparece en pestaña -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/Logo para pag.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header" style="border: 2px solid black;">
+        <img src="./assets/images/icc2.0.png" style="width: 100px;" alt="Logo Portafolio" class="logo__header" id="logo_header">
+
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Portada</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Misión Visión</a>
+            <a href="#metas" data-section="menu" data-value="item3">Metas</a>
+            <a href="#Autobiografia" data-section="menu" data-value="item4">Autobiografía</a>
+            <a href="#inventario" data-section="menu" data-value="item5">Inevtario Personal</a>
+            <a href="#sucesos" data-section="menu" data-value="item5">Sucesos</a>
+            <a href="#Linea" data-section="menu" data-value="item5">Linea de Tiempo</a>
+            <a href="#valores" data-section="menu" data-value="item5">Valores</a>
+            <a href="#FODA" data-section="menu" data-value="item5">FODA</a>
+            <a href="#Logo" data-section="menu" data-value="item5">Logo</a>
+            <a href="#glifo" data-section="menu" data-value="item6">Glifo</a>
+            <a href="#Autorretrato" data-section="menu" data-value="item5">Autorretrato</a>
+            <a href="#arbol" data-section="menu" data-value="item5">Árbol Genealogico</a>
+            <a href="#mapa" data-section="menu" data-value="item5">Mapa Mental</a>
+            <a href="#areas" data-section="menu" data-value="item5">Áreas Prioritarias</a>
+            <a href="#conclusiones" data-section="menu" data-value="item5">Conclusiones y Recomendaciones</a>
+
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home" style="border: 10px solid black;">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/portada.jpg" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Me llamo</p>
+                    <p class="home_text-2">Marlon Daniel Vargas Satz</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Estudiante de sexto Informatica</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">¡Hola! Soy un estudiante del Liceo Integral Científico en Computación apasionado por la edición de videos y la música. Mi grupo favorito es Guns N' Roses, y siempre estoy buscando nuevas formas de combinar mis dos pasiones en proyectos creativos. </p>
+                </div>
+
+                <div class="container_button">
+                    <a href="#" onclick="setTimeout(function(){ window.location.href = 'dedicatoria.html'; }, 1000);">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Dedicatoria</button>
+                    </a>
+                    <a href="#" onclick="setTimeout(function(){ window.location.href = 'intro.html'; }, 1000);">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Introducción</button>
+                    </a>
+                </div>
+                
+                
+            <div class="links">
+                <a href="https://www.linkedin.com/in/mariana-arias-montoya-b37a311a7/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/mariasmoUN" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Misión y Visión  -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up"></h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Misión</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy el creador y líder de una empresa de transporte exitosa, guiada por la innovación y la eficiencia. Acepto que mi éxito no solo beneficia mi vida, sino que también aporta estabilidad y oportunidades para mi familia. Como parte de mi misión, me comprometo a utilizar mi conocimiento para contribuir al bienestar de la comunidad, especialmente ayudando a personas de bajos recursos. Aprendo y utilizo los lenguajes de programación más solicitados para garantizar la capacidad y que mi empresa se adapte a un entorno que evoluciona rápido.</span>
+                </div>
+
+                <div class="container_content-sobreMi" data-aos="fade-right">
+                    <div class="container_texto-sobreMi">
+                        <span class="title_sobreMi">Visión</span>
+                        <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Ser un empresario exitoso, líder de mi propia empresa de transporte, y mi éxito se medirá no solo en términos financieros, sino en la capacidad de brindar apoyo y mejorar la calidad de vida de mi familia. Como empresario, quiero ser una fuerza positiva en la comunidad, contribuyendo a proyectos sociales y brindando oportunidades a personas de bajos recursos.</span>
+                    </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/mision.jpg" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Metas -->
+        <center>
+        <section class="sobreMi" id="metas" style="background-color: white; border: 10px solid black;">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up"></h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Metas a Largo Plazo</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">1.	Concluir exitosamente mi carrera de ingeniería en sistemas y graduarme con honores de la universidad.
+
+                        2.	Adquirir el anhelado Corvette Stingray 2024 para experimentar la emoción de recorrer caminos desconocidos con un toque de elegancia y velocidad.
+                        
+                        3.	Adquirir un terreno y construir mi casa con el propósito de llevar una vida tranquila junto a mi esposa.
+                        </span>
+                </div>
+
+                <div class="container_content-sobreMi" data-aos="fade-right">
+                    <div class="container_texto-sobreMi">
+                        <span class="title_sobreMi">Metas a Mediano Plazo</span>
+                        <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">1.	Remodelar la casa de mis padres para que ya no trabajen y descansen, asumiendo yo la responsabilidad de su sustento económico.
+
+                            2.	Ahorrar para poder comprar un terreno y construir mi hogar, así no depender de mis padres al momento de buscar pareja.
+                            
+                            3.	Adquirir un vehículo propio para dejar de depender del transporte público y experimentar mayor comodidad en mis viajes.
+                            </span>
+                    </div>
+    
+
+                    <div class="container_content-sobreMi" data-aos="fade-right">
+                        <div class="container_texto-sobreMi">
+                            <span class="title_sobreMi">Metas a Corto Plazo</span>
+                            <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">1.	Completar con éxito mi carrera de informática en el Colegio Integral Científico en Computación (ICC).
+
+                                2.	Obtener empleo para asegurar estabilidad, cubrir los costos de mis estudios y contribuir financieramente al bienestar de mis padres.
+                                
+                                3.	Iniciar mis estudios universitarios en la Universidad Mariano Gálvez de Guatemala con el objetivo de seguir mi formación académica y cursar la carrera de ingeniería en sistemas.
+                                </span>
+                        </div>
+            </div>
+        </section>
+    </center>
+<!-- Autobiografía -->
+<section class="formacion" id="Autobiografia">
+    <h1 data-section="formacion" data-value="title" data-aos="fade-up" style="font-family: Algerian, sans-serif; font-weight: bold;">AUTOBIOGRAFÍA</h1>
+
+    <div class="cards_container--formacion">
+        <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" style="height: 250px; background-color: white; border: 2px solid black;">
+            <a href="#" onclick="setTimeout(function() { window.location.href = 'Autobiografia.html#Autobiografia'; }, 1000); return false;">
+                <img class="logo-unal" src="./assets/images/Snapshot_1.PNG" alt="Logo - Universidad Nacional de Colombia">
+            </a>
+            <div class="container_texto--formacion">
+                <p data-section="formacion" data-value="formacion1">¿Quieres conocer mi historia?</p>
+                <p data-section="formacion" data-value="tiempo-formacion1">Haz click en la imagen para leer mi autobiografía</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Listado de cosas -->
+        <section class="formacion" id="inventario" style="background-color: white; border: 10px solid black;">
+            <div class="container">
+                <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up "style="font-family: Algerian, sans-serif;  font-weight: bold;">INVENTARIO PERSONAL</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <!-- Indicadores -->
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/comidas.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/Bebidas.jpg" alt="Second slide" >
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/Canciones.jpg" alt="Third slide">
+                        </div>
+                        <!-- Agregar más slides -->
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/libros.jpg" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/ropa.jpg" alt="Fifth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/objetos.jpg" alt="Sixth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/enfermedades.jpg" alt="Seventh slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/academico.jpg" alt="Eighth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/animales.jpg" alt="Ninth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/emociones.jpg" alt="Tenth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/Valores.jpg" alt="Eleventh slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/reglas.jpg" alt="Twelfth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/permisiones.jpg" alt="Thirteenth slide">
+                        </div>
+                        <!-- Agregar más slides según sea necesario -->
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        </center>
+            
+        
+
+        <!-- Sucesos -->
+        <section class="sobreMi" id="sucesos">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up"></h1>
+            <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up "style="font-family: Algerian, sans-serif;  font-weight: bold;">SUCESOS IMPORTANTE EL DÍA DE MI NACIMIENTO</h1>
+        
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Suceso 2</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Otro acontecimiento notable que ocurrió en el día de mi nacimiento fue la emisión del primer episodio del capítulo piloto de la serie "Lost". Titulado "Pilot" en inglés, "Piloto" en España y Latinoamérica, este doble capítulo correspondiente al primer y segundo episodio de la primera temporada de la serie fue transmitido por separado. El primero se emitió en Estados Unidos el 22 de septiembre de 2004, y el segundo el 29 de septiembre de 2004. También se transmitió de forma completa el sábado 2 de octubre del mismo año. En este capítulo, Jack y Kate asumen la responsabilidad de los sobrevivientes del accidente del vuelo 815 de Oceanic y cuidan de los heridos. Desde la selva, se emiten rugidos misteriosos. Jack, Kate y Charlie se aventuran en la selva en busca de la cabina del avión. Este evento televisivo coincidió con el día de mi nacimiento.</span>
+                
+                </div>
+                <img src="assets/images/noti2.png" alt="" class="img-fluid mx-auto d-block" style="height: 300px;">
+        
+                <section class="sobreMi" id="sobreMi">
+                    <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up"></h1>
+        
+                    <div class="container_content-sobreMi" data-aos="fade-right">
+                        <div class="container_texto-sobreMi">
+                            <span class="title_sobreMi">Suceso1</span>
+                            <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">El día de mi nacimiento se disputaron varios partidos en la Liga Española, como el encuentro entre el Albacete y el Mallorca, el cual finalizó en empate. El partido más esperado fue el del Barcelona contra el Real Zaragoza, programado originalmente para jugarse en el Camp Nou (Estadio del Barcelona) a las 2 PM. Sin embargo, por motivos desconocidos, se pospuso al día siguiente. El encuentro finalizó con una victoria para el Barcelona, con goles de Samuel Eto'o en los minutos 25 y 46, además de un gol de Xavi Hernández en el minuto 67. El último tanto fue anotado por Giovanni van Bronckhorst en el minuto 78. El partido concluyó con cuatro goles a favor del Barcelona y un gol a favor del Real Zaragoza, marcado por David Villa en el minuto 14.</span>
+                        </div>
+                        <img src="assets/images/noti3.png" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                </section>
+
+            </div>
+        </section>
+        
+    </main>
+
+     <!-- Linea del Tiempo -->
+
+     <section class="formacion" id="Linea" style="background-color: white; border: 10px solid black;">
+        <div class="container">
+            <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up "style="font-family: Algerian, sans-serif;  font-weight: bold;">MI LÍNEA DEL TIEMPO</h1>
+                <img src="assets/images/Mi linea del tiempo ).png" class="img-fluid" alt="Mi línea del Tiempo">
+            </div>
+        </div>
+    </section>
+    
+    
+     <!-- Valores -->
+
+     <section class="proyectos" id="valores" style="background-color: #0bff20;">
+        <h1 data-section="proyectos" data-value="title" data-aos="fade-up" style="font-family: Algerian, sans-serif;  font-weight: bold;" >VALORES</h1>
+
+
+
+        <div class="cards_container--proyectos">
+            <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/Respeto.PNG" style="height: 170px;" alt="Proyecto: Juego del ahorcado">
+                </div>
+
+                <div class="container_textCard--proyectos">
+                    <h2 data-section="proyectos" data-value="title-proyecto1">Respeto</h2>
+                    <p data-section="proyectos" data-value="info-proyecto1">En mi rutina diaria, practico el respeto al escuchar activamente a los demás, evitando interrumpir y aceptando opiniones diferentes. Me comunico de manera amable, sin decir cosas hirientes. Respeto la privacidad de las personas, cumplo con lo que prometo y reconozco mis errores cuando cometo alguno</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="https://mariasmoun.github.io/Juego-del-Ahorcado/" target="_blank">
+                    </a>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/Respon.PNG" style="height: 170px;" alt="Proyecto: Portafolio">
+                </div>
+
+                <div class="container_textCard--proyectos text-portafolio">
+                    <h2 data-section="proyectos" data-value="title-proyecto2">Responsabilidad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto2">En mi día a día, me aseguro de hacer lo que debo hacer a tiempo y cumplir con mis compromisos. Si tomo decisiones, asumo la responsabilidad de ellas, aprendo de mis errores y siempre trato de mejorar.</p>
+                </div>
+                
+
+                <div class="container_btn--proyectos">
+                    <a href="#" target="_blank">
+                        
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/portafolio" target="_blank">
+ 
+                    </a>
+                </div>
+            </div>
+
+            <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/Garti.PNG" style="height: 170px;" alt="Proyecto: Encriptador">
+                </div>
+
+                <div class="container_textCard--proyectos">
+                    <h2 data-section="proyectos" data-value="title-proyecto3">Gratitud</h2>
+                    <p data-section="proyectos" data-value="info-proyecto3">Todos los días, doy las gracias a las personas que me rodean, reconociendo lo que hacen por mí, también si una persona me presta algo le doy siempre las gracias.</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="https://mariasmoun.github.io/Encriptador-de-texto/" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/Encriptador-de-texto" target="_blank">
+                    </a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="cards_container--proyectos">
+            <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/Amistad.PNG" style="height: 170px;" alt="Proyecto: Juego del ahorcado">
+                </div>
+
+                <div class="container_textCard--proyectos">
+                    <h2 data-section="proyectos" data-value="title-proyecto1">Amistad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto1">En mi día a día, soy simpático, me preocupo por los demás y comparto momentos felices con quienes me rodean. Creo un ambiente agradable que ayuda a construir relaciones sólidas y contribuye a un entorno amigable. </p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="https://mariasmoun.github.io/Juego-del-Ahorcado/" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/Juego-del-Ahorcado" target="_blank">
+                    </a>
+                </div>
+            </div>
+
+            <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/libertad.PNG" style="height: 170px;" alt="Proyecto: Portafolio">
+                </div>
+
+                <div class="container_textCard--proyectos text-portafolio">
+                    <br>
+                    <h2 data-section="proyectos" data-value="title-proyecto2">Libertad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto2">Elijo cosas que son verdaderamente importantes para mí, pruebo nuevas experiencias y respeto las decisiones de los demás. Aprecio la diversidad y vivo siendo yo mismo, sin preocuparme por lo que piensen los demás.</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="#" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/portafolio" target="_blank">
+                    </a>
+                </div>
+            </div>
+
+            <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/hones.PNG" style="height: 170px;" alt="Proyecto: Encriptador">
+                </div>
+
+                <div class="container_textCard--proyectos">
+                    <h2 data-section="proyectos" data-value="title-proyecto3">Honestidad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto3">Cada día, soy honesto. Siempre digo la verdad, admito mis errores y evito esconder cosas. Así construyo relaciones de confianza y creo un ambiente donde ser sincero es valorado.</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="https://mariasmoun.github.io/Encriptador-de-texto/" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/Encriptador-de-texto" target="_blank">
+                    </a>
+                </div>
+            </div>
+        </div> 
+        <div class="cards_container--proyectos">
+            <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/Humildad.PNG" style="height: 170px;" alt="Proyecto: Juego del ahorcado">
+                </div>
+
+                <div class="container_textCard--proyectos">
+                    <h2 data-section="proyectos" data-value="title-proyecto1">Humildad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto1">En mi rutina diaria, trato de ser humilde. Escucho a los demás, comparto mis logros sin presumir, admito mis errores, comparto mis alimentos con los demás. Creo que esto ayuda a tener buenas relaciones y un ambiente positivo.</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="https://mariasmoun.github.io/Juego-del-Ahorcado/" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/Juego-del-Ahorcado" target="_blank">
+                    </a>
+                </div>
+            </div>
+
+            <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/solidaridad.PNG" style="height: 170px;" alt="Proyecto: Portafolio">
+                </div>
+
+                <div class="container_textCard--proyectos text-portafolio">
+                    <h2 data-section="proyectos" data-value="title-proyecto2">Solidaridad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto2">En mi vida cotidiana, trato de ser solidario. Ayudo a la gente a mi alrededor, ya sea escuchándolos, ofreciendo una mano en lo que necesiten o participando en actividades.</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="#" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/portafolio" target="_blank">
+                    </a>
+                </div>
+            </div>
+
+            <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/Generosidad.PNG" style="height: 170px;" alt="Proyecto: Encriptador">
+                </div>
+
+                <div class="container_textCard--proyectos">
+                    <h2 data-section="proyectos" data-value="title-proyecto3">Generosidad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto3">En mi vida diaria, trato de ser generoso. Comparto lo que tengo, ya sea tiempo, ayuda o apoyo, sin esperar nada a cambio. Me gusta hacer cosas buenas para los demás y crear amistades especiales.</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="https://mariasmoun.github.io/Encriptador-de-texto/" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/Encriptador-de-texto" target="_blank">
+                    </a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="cards_container--proyectos">
+            <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                <div class="container_imgCard--proyectos">
+                    <img src="./assets/images/Lealtad.PNG" style="height: 170px;" alt="Proyecto: Juego del ahorcado">
+                </div>
+
+                <div class="container_textCard--proyectos">
+                    <h2 data-section="proyectos" data-value="title-proyecto1">Leltad</h2>
+                    <p data-section="proyectos" data-value="info-proyecto1">En mi día a día, siempre estoy ahí para mis seres queridos, cumplo lo que prometo y respeto la privacidad de quienes confían en mí. Mi lealtad se muestra siendo un apoyo constante y manteniendo mis compromisos.</p>
+                </div>
+
+                <div class="container_btn--proyectos">
+                    <a href="https://mariasmoun.github.io/Juego-del-Ahorcado/" target="_blank">
+                    </a>
+
+                    <a href="https://github.com/mariasmoUN/Juego-del-Ahorcado" target="_blank">
+                    </a>
+                </div>
+            </div>
+
+
+            
+            </div>
+        </div> 
+    </section>
+
+    <!-- FODA -->
+    <section class="formacion" id="FODA" style="background-color: white; border: 10px solid black;">
+        <h1 data-section="formacion" data-value="title" data-aos="fade-up "style="font-family: Algerian, sans-serif;  font-weight: bold;">FODA</h1>
+
+        <div class="cards_container--formacion">
+            <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                <img class="logo-unal" src="./assets/images/fota.PNG" alt="Logo - Universidad Nacional de Colombia">
+                <div class="container_texto--formacion">
+                    <p data-section="formacion" data-value="formacion1">Fortalezas</p>
+                    <p data-section="formacion" data-value="tiempo-formacion1">1.	Habilidad para ejecutar instrumento de percusión.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion2">2.	Habilidad para jugar Futbol </p>
+                    <p data-section="formacion" data-value="tiempo-formacion3">3.	Capacidad para entender conceptos musicales complejos, como la relación entre diferentes frecuencias de sonido.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion4">4.	Experiencia en comprender la música, incluyendo conocimiento sobre formatos de archivos y diferencias entre música digital y analógica.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion5">5.	Fortaleza en solucionar problemas; si no sé cómo arreglar algo, investigo hasta encontrar la solución.</p>
+                    <br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+            <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                <img class="logo-unal" src="./assets/images/opor .PNG" alt="Logo - Universidad Nacional de Colombia">
+                <div class="container_texto--formacion">
+                    <p data-section="formacion" data-value="formacion1">Oportunidades </p>
+                    <p data-section="formacion" data-value="tiempo-formacion1">1.	Trabajar en la empresa familiar.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion2">2.	Seguir estudiando la universidad. </p>
+                    <p data-section="formacion" data-value="tiempo-formacion3">3.	Conseguir trabajo en la empresa LINAFLOR.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion4">4.	Ser supervisor de la empresa familiar.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion5">5.	Estudiar música </p>
+                    <br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+            <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                <img class="logo-unal" src="./assets/images/Debili.PNG" alt="Logo - Universidad Nacional de Colombia">
+                <div class="container_texto--formacion">
+                    <p data-section="formacion" data-value="formacion1">Debilidades </p>
+                    <p data-section="formacion" data-value="tiempo-formacion1">1.	Soy propenso a enojarme constantemente..</p>
+                    <p data-section="formacion" data-value="tiempo-formacion2">2.	Soy propenso a estresarme bastante. </p>
+                    <p data-section="formacion" data-value="tiempo-formacion3">3.	Soy propenso a hablar vulgarmente.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion4">4.	Dificultad de confianza en ciertas áreas de estudio.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion5">5.	Me distraigo fácilmente.</p>
+                    <br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br>
+                </div>
+            </div>
+
+            <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                <img class="logo-unal" src="./assets/images/Ame.PNG" alt="Logo - Universidad Nacional de Colombia">
+                <div class="container_texto--formacion">
+                    <p data-section="formacion" data-value="formacion1">Amenazas</p>
+                    <p data-section="formacion" data-value="tiempo-formacion1">1.	Desafíos económicos personales que podrían afectar mis estudios..</p>
+                    <p data-section="formacion" data-value="tiempo-formacion2">2.	Problemas de salud mental, como estrés o ansiedad, que podrían afectar mi desempeño académico.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion3">3.	No encontrar empleo de mi carrera.</p>
+                    <p data-section="formacion" data-value="tiempo-formacion4">4.	Tener contratiempos con mi computadora, que es esencial para realizar mi trabajo..</p>
+                    <p data-section="formacion" data-value="tiempo-formacion5">5.	Experimentar complicaciones de salud repentinas.</p>
+                    <br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+         <!-- Logo -->
+
+         <section class="formacion" id="Logo" style="background-color: #0bff20;">
+            <div class="container">
+                <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up "style="font-family: Algerian, sans-serif;  font-weight: bold;">LOGOTIPO</h1>
+                <div style="background-color: black; display: inline-block; padding: 10px;">
+                <img src="assets/images/Logo.png" class="img-fluid" alt="Mi línea del Tiempo">
+                </div>
+            </div>
+        </section>
+    
+    
+         <!-- Glifo -->
+
+         <section class="formacion" id="glifo" style="background-color: white; border: 10px solid black; ">
+            <div class="container">
+                <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up "style="font-family: Algerian, sans-serif;  font-weight: bold;">GLIFO</h1>
+                <div style="background-color: black; display: inline-block; padding: 10px;">
+                <img src="assets/images/nawal.png" class="img-fluid" alt="Mi línea del Tiempo">
+                </div>
+            </div>
+        </section>
+
+         <!-- Autorretarto -->
+
+         <section class="formacion" id="Autorretrato" style="background-color: #0bff20;">
+            <div class="container">
+                <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up" style="font-family: Algerian, sans-serif; font-weight: bold;">AUTORRETRATO</h1>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <div style="background-color: black; display: inline-block; padding: 10px;">
+                            <img src="assets/images/autorretaro.jpg" class="img-fluid" alt="Mi autorretrato" style="width: 100%; border-radius: 10px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Arbool Genealogico -->
+        <section class="formacion" id="arbol" style="background-color: white; border: 10px solid black;">
+            <div class="container">
+                <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up" style="font-family: Algerian, sans-serif; font-weight: bold;">ÁRBOL GENEALÓGICO</h1>
+                <img src="assets/images/Arbol.jpeg" class="img-fluid" alt="Mi línea del Tiempo">
+            </div>
+        </section>
+
+        <!-- Mapa mental -->
+        <section class="formacion" id="mapa" style="background-color: #0bff20;">
+            <div class="container">
+                <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up" style="font-family: Algerian, sans-serif; font-weight: bold;">MAPA MENTAL DE SUEÑOS</h1>
+                <div style="background-color: black; display: inline-block; padding: 10px;">
+                    <img src="assets/images/mapa.png" class="img-fluid" alt="Mi línea del Tiempo" style="display: block;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Areas -->
+        <section class="formacion" id="areas" style="background-color: white; border: 10px solid black;">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up" style="font-family: Algerian, sans-serif; font-weight: bold;">ÁREAS PRIORITARIAS</h1>
+            <a href="Tablas.html" style="text-decoration: none; color: inherit;">
+                <div class="cards_container--formacion" onclick="setTimeout(function() { window.location.href = 'Tablas.html#areas'; }, 1000); return false;">
+                    <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" style="height: 250px; background-color: white; border: 2px solid black;">
+                        <img class="logo-unal" src="./assets/images/areas.PNG" alt="Logo - Universidad Nacional de Colombia">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="formacion1">¿Quieres conocer mis Áreas?</p>
+                            <p data-section="formacion" data-value="tiempo-formacion1">Haz click en la imagen para ver mis áreas</p> <!-- Áreas con tilde -->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </section>
+        
+        
+
+        
+
+                <!-- Conclusiones -->
+                <section class="sobreMi" id="conclusiones" style="background-color: #0bff20; text-align: center; border: 10px solid black;">
+                    <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up"></h1>
+                    <h1 class="text-center mb-4" data-section="formacion" data-value="title" data-aos="fade-up" style="font-family: Algerian, sans-serif; font-weight: bold;">CONCLUSIONES Y RECOMENDACIONES</h1>
+                
+                    <div class="container_content-sobreMi" data-aos="fade-right" style="background-color: #0bff20; text-align: left;">
+                        <div class="container_texto-sobreMi">
+                            <span class="title_sobreMi">Conclusiones</span>
+                            <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">1. El proyecto de vida es una herramienta poderosa que nos permite definir nuestras metas, valores y aspiraciones, proporcionando un marco estructurado para guiar nuestro camino hacia el éxito y la realización personal.
+
+                               2.  A través del proceso de elaboración del proyecto de vida, podemos identificar nuestras fortalezas y áreas de desarrollo, lo que nos permite establecer metas realistas y alcanzables que nos acerquen a nuestros sueños.
+                                
+                                3. El proyecto de vida es un proceso dinámico y continuo que requiere revisión y ajuste periódico a medida que evolucionamos y nuestras circunstancias cambian. Es importante mantenernos flexibles y abiertos a adaptar nuestro plan según sea necesario.
+                                
+                                4. El proyecto de vida no solo se trata de alcanzar objetivos específicos, sino también de encontrar un sentido de propósito y satisfacción en nuestras vidas. Nos ayuda a vivir de manera más consciente y significativa, aprovechando al máximo nuestro potencial.
+                                
+                               5.  Al comprometernos con nuestro proyecto de vida, nos empoderamos para tomar el control de nuestro destino y crear la vida que realmente deseamos. Nos da la capacidad de superar obstáculos y enfrentar desafíos con determinación y resiliencia.</span>
+                        </div>
+                    </div>
+                
+                    <section class="sobreMi" id="sobreMi" style="background-color: #0bff20; text-align: center;">
+                        <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up"></h1>
+                
+                        <div class="container_content-sobreMi" data-aos="fade-right" style="background-color: #0bff20; text-align: left;">
+                            <div class="container_texto-sobreMi">
+                                <span class="title_sobreMi">Recomendaciones</span>
+                                <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">1. Dedica tiempo regularmente para reflexionar sobre tus metas, valores y aspiraciones, y actualiza tu proyecto de vida según sea necesario para mantenerlo relevante y significativo.
+
+                                    2. Establece metas SMART (específicas, medibles, alcanzables, relevantes y con un plazo definido) para asegurarte de que sean claras y alcanzables.
+                                    
+                                    3. Crea un plan de acción detallado que incluya pasos concretos y fechas límite para cada objetivo, y revisa tu progreso periódicamente para mantener el rumbo.
+                                    
+                                    4. Busca el apoyo de amigos, familiares o mentores que puedan ofrecerte orientación y aliento en tu viaje hacia la realización personal.
+                                    
+                                    5. Mantén una actitud positiva y perseverante, y recuerda que el camino hacia el éxito personal puede tener altibajos. Cree en ti mismo y en tu capacidad para superar cualquier desafío que surja en el camino hacia tus sueños.</span>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+
+                
+                
+        
+        
+
+    <footer>
+        <div class="contianer--footer" style="background-color: white;">
+            <div class="container_redes-footer">
+                <a href="https://api.whatsapp.com/send?phone=54983070" target="_blank">
+                    <img src="./assets/images/icons8-whatsapp-50.png" alt="WhatsApp">
+                </a>
+                
+                <a href="https://www.facebook.com/marlon.satz?mibextid=ZbWKwL" target="_blank">
+                    <img src="./assets/images/icons8-facebook-nuevo-50.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/ran_haitani_15/" target="_blank">
+                    <img src="./assets/images/icons8-instagram-50.png" alt="Instagram"">
+                </a>
+                <a href="https://youtube.com/@RanHaitani062" target="_blank">
+                    <img src="./assets/images/icons8-youtube-play-50.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © |</span>
+                <span>Marlon Vargas</span>
+            </div>
+        </div>
+    </footer>
+
+
+    
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
